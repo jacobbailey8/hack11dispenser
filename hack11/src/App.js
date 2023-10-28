@@ -1,11 +1,13 @@
-import './index.css'
-import Header from './Header';
+
+import Grid from './Grid.js'
+import './style/index.css'
+
 function App() {
   return (
-    <div className="App">
-
-      <Header></Header>
-
+    <div className="App text-red-700">
+      test
+    <Header/>
+      <Grid></Grid>
     </div>
 
   );
