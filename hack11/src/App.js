@@ -1,9 +1,13 @@
 import './index.css'
+import Header from './Header';
 function App() {
   return (
-    <div className="App text-red-700">
-      test
+    <div className="App">
+
+      <Header></Header>
+
     </div>
+
   );
 }
 
